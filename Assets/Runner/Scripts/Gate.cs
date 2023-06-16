@@ -28,7 +28,10 @@ namespace HyperCasual.Runner
         {
             ChangeSpeed,
             ChangeSize,
+            MultiplyGold,
         }
+
+        Inventory m_Inventory;
 
         /// <summary>
         /// Sets the local scale of this spawnable object
@@ -70,6 +73,11 @@ namespace HyperCasual.Runner
             }
         }
 
+        void Start()
+        {
+            m_Inventory = Inventory.Instance;
+        }
+
         void OnTriggerEnter(Collider col)
         {
             if (col.CompareTag(k_PlayerTag) && !m_Applied)
@@ -84,11 +92,15 @@ namespace HyperCasual.Runner
             {
                 case GateType.ChangeSpeed:
                     PlayerController.Instance.AdjustSpeed(m_Value);
-                break;
+                    break;
 
                 case GateType.ChangeSize:
                     PlayerController.Instance.AdjustScale(m_Value);
-                break;
+                    break;
+
+                case GateType.MultiplyGold:
+                    m_Inventory.x2Gold();
+                    break;
             }
 
             m_Applied = true;

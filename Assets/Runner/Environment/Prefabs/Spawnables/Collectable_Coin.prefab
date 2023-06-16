@@ -78,7 +78,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UsePositionBasedOffset: 0
   PositionBasedScale: 2
-  Bob: 0
+  Bob: 1
   BobSpeed: 5
   BobHeight: 0.2
   Spin: 1

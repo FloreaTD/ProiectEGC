@@ -5,20 +5,31 @@ using UnityEngine;
 
 namespace HyperCasual.Runner
 {
-    /// <summary>
-    /// Ends the game on collision, forcing a win state.
-    /// </summary>
     [ExecuteInEditMode]
     [RequireComponent(typeof(Collider))]
     public class FinishLine : Spawnable
     {
         const string k_PlayerTag = "Player";
-        
+
+        private Inventory inventory;
+        private int nrGold;
+        public int crediteCastig;
+
         void OnTriggerEnter(Collider col)
         {
-            if (col.CompareTag(k_PlayerTag))
+            inventory = FindObjectOfType<Inventory>();
+            if (inventory != null)
+            {
+                nrGold = inventory.returnTemGold();
+            }
+            if (col.CompareTag(k_PlayerTag) && nrGold > crediteCastig)
             {
                 GameManager.Instance.Win();
+                Debug.Log(nrGold);
+            }
+            else
+            {
+                GameManager.Instance.Lose();
             }
         }
     }

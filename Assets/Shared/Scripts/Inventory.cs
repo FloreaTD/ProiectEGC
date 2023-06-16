@@ -138,5 +138,15 @@ namespace HyperCasual.Runner
                 }
             }
         }
+
+        public int returnTemGold()
+        {
+            return m_TempGold;
+        }
+
+        public void x2Gold()
+        {
+            m_TempGold = m_TempGold * 2;
+        }
     }
 }
