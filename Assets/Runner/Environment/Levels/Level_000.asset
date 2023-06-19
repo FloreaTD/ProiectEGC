@@ -33,14 +33,14 @@ MonoBehaviour:
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: b4bd93161c785e843bec34c5426dbfcc,
       type: 3}
-    Position: {x: 2, y: 1.5, z: 22}
+    Position: {x: 2, y: 1.5, z: 26.63}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4.5010934, y: 3, z: 0.1}
     BaseColor: {r: 0.65882355, g: 0, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: b68bf1e2642b5ea4a9fb48b8f92cd91a,
       type: 3}
-    Position: {x: -2, y: 1.5, z: 22}
+    Position: {x: -2, y: 1.5, z: 27.47}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 3.788953, y: 3, z: 0.1}
     BaseColor: {r: 0.08169933, g: 0.6603774, b: 0, a: 0.76862746}
@@ -89,28 +89,14 @@ MonoBehaviour:
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: ab22d0748f0e442098d9148039da7b5d,
       type: 3}
-    Position: {x: 2, y: 1.5, z: 146.73}
+    Position: {x: -2, y: 1.5, z: 138.35}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.65882355, g: 0, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: 11ad04d407719432489768e7d6728117,
       type: 3}
-    Position: {x: -2, y: 1.5, z: 146.89}
-    EulerAngles: {x: -0, y: 0, z: 0}
-    Scale: {x: 4, y: 3, z: 0.1}
-    BaseColor: {r: 0.08169933, g: 0.6603774, b: 0, a: 0.76862746}
-    SnapToGrid: 1
-  - SpawnablePrefab: {fileID: 314387739941697089, guid: ab22d0748f0e442098d9148039da7b5d,
-      type: 3}
-    Position: {x: -2, y: 1.5, z: 124.96}
-    EulerAngles: {x: -0, y: 0, z: 0}
-    Scale: {x: 4, y: 3, z: 0.1}
-    BaseColor: {r: 0.65882355, g: 0, b: 0, a: 0.76862746}
-    SnapToGrid: 1
-  - SpawnablePrefab: {fileID: 314387739941697089, guid: 11ad04d407719432489768e7d6728117,
-      type: 3}
-    Position: {x: 2, y: 1.5, z: 124.69}
+    Position: {x: 2, y: 1.5, z: 137.81}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.08169933, g: 0.6603774, b: 0, a: 0.76862746}
@@ -292,42 +278,42 @@ MonoBehaviour:
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: 11ad04d407719432489768e7d6728117,
       type: 3}
-    Position: {x: 2, y: 1.5, z: 46.69}
+    Position: {x: 2, y: 1.5, z: 55.7}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.08169933, g: 0.6603774, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: ab22d0748f0e442098d9148039da7b5d,
       type: 3}
-    Position: {x: -2, y: 1.5, z: 47.03}
+    Position: {x: -2, y: 1.5, z: 55.87}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.65882355, g: 0, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: ab22d0748f0e442098d9148039da7b5d,
       type: 3}
-    Position: {x: -2, y: 1.5, z: 72.54}
+    Position: {x: -2, y: 1.5, z: 81.96}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.65882355, g: 0, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: 11ad04d407719432489768e7d6728117,
       type: 3}
-    Position: {x: 2, y: 1.5, z: 73.25}
+    Position: {x: 2, y: 1.5, z: 81.83}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.08169933, g: 0.6603774, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: 11ad04d407719432489768e7d6728117,
       type: 3}
-    Position: {x: -2, y: 1.5, z: 96.5}
+    Position: {x: -2, y: 1.5, z: 106.66}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.08169933, g: 0.6603774, b: 0, a: 0.76862746}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 314387739941697089, guid: ab22d0748f0e442098d9148039da7b5d,
       type: 3}
-    Position: {x: 2, y: 1.5, z: 96.5}
+    Position: {x: 2, y: 1.5, z: 106.72}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 4, y: 3, z: 0.1}
     BaseColor: {r: 0.65882355, g: 0, b: 0, a: 0.76862746}
