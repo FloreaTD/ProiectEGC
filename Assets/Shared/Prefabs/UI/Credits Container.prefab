@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5834689071297027072}
   - component: {fileID: 8188193036358060276}
   m_Layer: 5
-  m_Name: Gold Container
+  m_Name: Credits Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 8521344932960721048}
   - component: {fileID: 5321908480584742034}
   m_Layer: 5
-  m_Name: Gold value
+  m_Name: Credits value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 3824227484435111649}
   - component: {fileID: 2590973862850910457}
   m_Layer: 5
-  m_Name: Gold title
+  m_Name: Credits title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gold:'
+  m_text: 'Credits:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
