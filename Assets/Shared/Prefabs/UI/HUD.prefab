@@ -730,6 +730,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2590973862850910457, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
+      propertyPath: m_text
+      value: 'Credit:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2590973862850910457, guid: 5a03a3a59cfb547b5b913cde3282c131,
+        type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -753,15 +758,25 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 49.9115
       objectReference: {fileID: 0}
+    - target: {fileID: 2838428771016816845, guid: 5a03a3a59cfb547b5b913cde3282c131,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 203.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2838428771016816845, guid: 5a03a3a59cfb547b5b913cde3282c131,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2910761123095850727, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
       propertyPath: m_Name
-      value: Gold Container
+      value: Credit Container
       objectReference: {fileID: 0}
     - target: {fileID: 4174385919738700553, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 75.3282
+      value: 135.5791
       objectReference: {fileID: 0}
     - target: {fileID: 4174385919738700553, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
@@ -806,12 +821,12 @@ PrefabInstance:
     - target: {fileID: 4440215232704856282, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 180
+      value: 282.4825
       objectReference: {fileID: 0}
     - target: {fileID: 4440215232704856282, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 45.2008
       objectReference: {fileID: 0}
     - target: {fileID: 4440215232704856282, guid: 5a03a3a59cfb547b5b913cde3282c131,
         type: 3}
@@ -897,6 +912,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537380516833652788, guid: 5a03a3a59cfb547b5b913cde3282c131,
+        type: 3}
+      propertyPath: m_Name
+      value: Credit value
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948767165644492161, guid: 5a03a3a59cfb547b5b913cde3282c131,
+        type: 3}
+      propertyPath: m_Name
+      value: Credit title
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a03a3a59cfb547b5b913cde3282c131, type: 3}
