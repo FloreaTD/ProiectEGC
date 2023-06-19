@@ -28,7 +28,13 @@ namespace HyperCasual.Runner
         {
             ChangeSpeed,
             ChangeSize,
-            MultiplyGold,
+            GAC,
+            PCLP3,
+            MN,
+            DEEA2,
+            PL,
+            Sport,
+            EGC,
         }
 
         Inventory m_Inventory;
@@ -98,8 +104,36 @@ namespace HyperCasual.Runner
                     PlayerController.Instance.AdjustScale(m_Value);
                     break;
 
-                case GateType.MultiplyGold:
-                    m_Inventory.x2Gold();
+                case GateType.GAC:
+                    m_Inventory.GAC();
+                    break;
+
+                case GateType.PCLP3:
+                    m_Inventory.PCLP3();
+                    break;
+
+                case GateType.MN:
+                    m_Inventory.MN();
+                    break;
+
+                case GateType.DEEA2:
+                    m_Inventory.DEEA2();
+                    break;
+
+                case GateType.PL:
+                    m_Inventory.PL();
+                    break;
+
+                case GateType.Sport:
+                    m_Inventory.Sport();
+                    break;
+
+                case GateType.EGC:
+                    m_Inventory.EGC();
+                    break;
+
+                default:
+                    Debug.LogWarning("GateType not recognized: " + m_GateType);
                     break;
             }
 

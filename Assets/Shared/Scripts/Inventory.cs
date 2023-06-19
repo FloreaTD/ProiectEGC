@@ -144,9 +144,39 @@ namespace HyperCasual.Runner
             return m_TempGold;
         }
 
-        public void x2Gold()
+        public void GAC()
         {
-            m_TempGold = m_TempGold * 2;
+            m_TempGold = m_TempGold - 10;
+        }
+
+        public void PCLP3()
+        {
+            m_TempGold = m_TempGold + 5;
+        }
+
+        public void MN()
+        {
+            m_TempGold = m_TempGold - 5;
+        }
+
+        public void DEEA2()
+        {
+            m_TempGold = m_TempGold - 5;
+        }
+
+        public void PL()
+        {
+            m_TempGold = m_TempGold - 5;
+        }
+
+        public void Sport()
+        {
+            m_TempGold = m_TempGold + 10;
+        }
+
+        public void EGC()
+        {
+            m_TempGold = m_TempGold + 10;
         }
     }
 }
